@@ -10,8 +10,8 @@ define('PANEL_DEVELOPER', 'SUBHAN');
 
 // ─── ADMIN LOGIN CREDENTIALS ────────────────────────────────
 // Change these before deploying!
-define('ADMIN_USERNAME', 'admin');
-define('ADMIN_PASSWORD', password_hash('admin123', PASSWORD_BCRYPT)); // Change password!
+define('ADMIN_USERNAME', 'subhan');
+define('ADMIN_PASSWORD', password_hash('root8962', PASSWORD_BCRYPT)); // Change password!
 define('SESSION_LIFETIME', 3600); // 1 hour
 
 // ─── DATABASE PATH ──────────────────────────────────────────
@@ -23,11 +23,11 @@ define('DB_PATH', __DIR__ . '/../vc-coin-bot/data/bot_data.db');
 // ─── DISCORD BOT API ────────────────────────────────────────
 // Internal bot REST API (runs alongside the bot)
 define('BOT_API_URL', 'http://localhost:5000');
-define('BOT_API_KEY', 'your-secret-api-key-here'); // Must match bot's api_key in config.json
+define('BOT_API_KEY', 'API8962XYZ@SUBHAN'); // Must match bot's api_key in config.json
 
 // ─── DISCORD CONFIG ─────────────────────────────────────────
 define('DISCORD_BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE');
-define('DISCORD_GUILD_ID', 'YOUR_GUILD_ID_HERE');
+define('DISCORD_GUILD_ID', '1375136122132496506');
 
 // ─── PANEL SETTINGS ─────────────────────────────────────────
 define('TIMEZONE', 'UTC');
