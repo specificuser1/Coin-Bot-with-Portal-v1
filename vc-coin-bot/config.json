@@ -16,21 +16,21 @@
   },
 
   "channels": {
-    "log_channel_id": "YOUR_LOG_CHANNEL_ID",
-    "blacklist_log_channel_id": "YOUR_BLACKLIST_LOG_CHANNEL_ID",
-    "public_panel_channel_id": "YOUR_PUBLIC_PANEL_CHANNEL_ID",
-    "admin_panel_channel_id": "YOUR_ADMIN_PANEL_CHANNEL_ID",
-    "allowed_vc_ids": []
+    "log_channel_id": "1452752336022802488",
+    "blacklist_log_channel_id": "1452752336022802488",
+    "public_panel_channel_id": "1483447059507052605",
+    "admin_panel_channel_id": "1483447091643678800",
+    "allowed_vc_ids": [1427961230605160529, 1433688407699095593, 1427960516810375189]
   },
 
   "roles": {
-    "admin_role_ids": ["YOUR_ADMIN_ROLE_ID"],
-    "bypass_role_ids": []
+    "admin_role_ids": ["1467519850938106029"],
+    "bypass_role_ids": [1467519850938106029]
   },
 
   "embeds": {
-    "public_thumbnail": "https://i.imgur.com/your_thumbnail.png",
-    "public_image": "https://i.imgur.com/your_image.png",
+    "public_thumbnail": "https://cdn.discordapp.com/attachments/1377209516583813130/1401617700211523764/image.png?ex=69ba37f4&is=69b8e674&hm=6012d1b1991434c63e0303a51d739f0df3ecaba25f8057f53c6e4f4c4e721bf9&",
+    "public_image": "https://cdn.discordapp.com/attachments/1377209516583813130/1401617700211523764/image.png?ex=69ba37f4&is=69b8e674&hm=6012d1b1991434c63e0303a51d739f0df3ecaba25f8057f53c6e4f4c4e721bf9&",
     "color_main": "0x5865F2",
     "color_success": "0x57F287",
     "color_error": "0xED4245",
