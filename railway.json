@@ -1,0 +1,11 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "bot": "pip install -r bot/requirements.txt",
+    "admin": ""
+  },
+  "deploy": {
+    "bot": "python3 bot/bot.py",
+    "admin": ""
+  }
+}
