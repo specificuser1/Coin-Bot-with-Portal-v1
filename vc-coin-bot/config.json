@@ -1,0 +1,50 @@
+{
+  "prefix": "!",
+  "bot_name": "VC Coin Earner",
+  "developer": "SUBHAN",
+
+  "coins": {
+    "per_minute_vc": 1.0,
+    "screen_share_multiplier": 1.5,
+    "coins_per_key": 90,
+    "daily_redeem_limit": 2
+  },
+
+  "account_age": {
+    "minimum_weeks": 4,
+    "auto_blacklist": true
+  },
+
+  "channels": {
+    "log_channel_id": "YOUR_LOG_CHANNEL_ID",
+    "blacklist_log_channel_id": "YOUR_BLACKLIST_LOG_CHANNEL_ID",
+    "public_panel_channel_id": "YOUR_PUBLIC_PANEL_CHANNEL_ID",
+    "admin_panel_channel_id": "YOUR_ADMIN_PANEL_CHANNEL_ID",
+    "allowed_vc_ids": []
+  },
+
+  "roles": {
+    "admin_role_ids": ["YOUR_ADMIN_ROLE_ID"],
+    "bypass_role_ids": []
+  },
+
+  "embeds": {
+    "public_thumbnail": "https://i.imgur.com/your_thumbnail.png",
+    "public_image": "https://i.imgur.com/your_image.png",
+    "color_main": "0x5865F2",
+    "color_success": "0x57F287",
+    "color_error": "0xED4245",
+    "color_warning": "0xFEE75C",
+    "color_admin": "0xEB459E"
+  },
+
+  "anti_spam": {
+    "max_commands_per_minute": 5,
+    "cooldown_seconds": 10
+  },
+
+  "panel_message_ids": {
+    "public_panel_message_id": null,
+    "admin_panel_message_id": null
+  }
+}
